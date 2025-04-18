@@ -1,0 +1,30 @@
+% !TeX root = main.tex
+\documentclass[a4paper,12pt]{article}
+
+% https://manualdelatex.com/tutoriales Tutoriales de LaTeX
+
+\input{config/packages}
+\input{config/command}
+
+\addbibresource{bibliografia/ref.bib}  % Archivo de bibliografía
+
+
+\title{}
+\author{}
+
+\begin{document}
+
+\include{portada}
+
+% Tabla de contenidos
+\tableofcontents
+\clearpage
+
+% Ejercicios
+\include{ejercicios/ejercicio_1}
+\include{ejercicios/ejercicio_2}
+\include{ejercicios/ejercicio_3}
+
+\printbibliography[title={Referencias},heading=bibintoc]
+
+\end{document}

@@ -1,0 +1,41 @@
+% Idioma y codificación
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}              % Codificación de entrada (UTF-8)
+\usepackage[T1]{fontenc}                 % Codificación de salida
+
+\usepackage{setspace}
+\usepackage{tikz}
+\usetikzlibrary{positioning} 
+
+% Bibliografía con Biber
+\usepackage[backend=biber]{biblatex}     
+
+% Gráficos e imágenes
+\usepackage{graphicx}                    
+\graphicspath{{./images/}}               % Carpeta de imágenes
+
+% Matemáticas
+\usepackage{amsmath, amssymb, amsthm}            
+
+% Formato del documento
+\usepackage{parskip}                     % Espacio entre párrafos
+\usepackage[a4paper,top=2cm,bottom=2cm,left=2cm,right=3cm,marginparwidth=1.75cm]{geometry}
+\geometry{margin=1in}
+
+% Listados y enumeraciones
+\usepackage{enumitem}                    % Personalizar listas
+\usepackage{listings}                    % Código fuente
+
+% Hiperenlaces y colores
+\usepackage[dvipsnames]{xcolor}          
+\usepackage[colorlinks=true,allcolors=blue]{hyperref}  % Enlaces en el documento
+
+% Citas y comillas
+\usepackage{csquotes}
+
+% Índice alfabético
+\usepackage{imakeidx}                   
+\makeindex[columns=3, title=Índice alfabético]
+
+% Posicionamiento de elementos flotantes
+\usepackage{float}
