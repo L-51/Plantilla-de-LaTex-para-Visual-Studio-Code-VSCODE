@@ -34,7 +34,7 @@
    `git config --global user.name "Tu Nombre"` <br>
    `git config --global user.email "tuemail@dominio.com"`
 3. Accede a la carpeta donde quieras tener este proyecto guardado y clónalo escribiendo en la terminal <br>
-   de VSC y poner `git clone https://github.com/L-51/Prac_2_Algoritmica.git`
+   de VSC y poner `git clone https://github.com/L-51/Plantilla-Latex-VSC`
 4. Abre la carpeta usando **OpenFolder** de VSC o la carpeta que te interesa hacer _click derecho_ y abrir con <br>
    y escribir **code**
 5. Tras realizar un cambio o recibir una modificación hecha por otro usuario, abrir control de código con <br>
