@@ -13,8 +13,10 @@
     En caso de querer usarlo, instalar **Github Copilot** y **Github Copilot Chat** en el apartado de extensiones <br>
     Para conectar con su cuenta de estudiante, sería clickear en tu perfil, y en el apartado de `setting`, ir a <br>
     la parte de `Emails` y añadir tu cuenta de estudiante
-- `Ctrl + Alt + B` para compilar
+- `Ctrl + S` para compilar
 - `Ctrl + Alt + V` para visualizar
+- Algo que está realmente interesante es que si tienes el `main.pdf` abierto, y le das a compilar, puedes ver los <br>
+  cambios ejercidos en el pdf
 - `Ctrl + Alt + X` le abrirá una ventana asociado al compilador de Latex y abajo izquierda con snippet
 - `Ctrl + I` para abrir **Copilot**(en caso de haberselo instalado)
 - **(Muy recomendable)** Para una mejor visualización del entorno `Ctrl + ,` para abrir configuración y aquí <br>
