@@ -10,13 +10,9 @@
   `sudo apt install texlive-full -y` para los paquetes de LaTex
 ### Recomendación
 - Al tener cuenta de estudiante, el **Copilot de Github** se puede usar gratuitamente<br>
-<<<<<<< HEAD
     En caso de querer usarlo, instalar **Github Copilot** y **Github Copilot Chat** en el apartado de extensiones <br>
     Para conectar con su cuenta de estudiante, sería clickear en tu perfil, y en el apartado de `setting`, ir a <br>
     la parte de `Emails` y añadir tu cuenta de estudiante
-=======
-    En caso de querer usarlo, instalar **Github Copilot** y **Github Copilot Chat** en el apartado de extensiones
->>>>>>> 39edcdc (update README)
 - `Ctrl + S` para compilar
 - `Ctrl + Alt + V` para visualizar
 - Algo que está realmente interesante es que si tienes el `main.pdf` abierto, y le das a compilar, puedes ver los <br>
