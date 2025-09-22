@@ -1,4 +1,4 @@
-# Plantilla para usar LaTex en Visual Code Studio (Sistema Linux)
+# Plantilla LaTeX para Visual Studio Code (VSC) | Tutorial para configurar LaTex en Visual Studio Code (VSC) (Sistema Linux)
 ## Guía para LaTex en Visual Code Studio
 ### Configuración básica
 - **Instalar Visual Studio Code** <br>
