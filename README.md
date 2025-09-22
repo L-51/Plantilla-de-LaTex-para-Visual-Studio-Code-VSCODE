@@ -42,10 +42,10 @@
    o `Ctrl + Enter` y si quieres subirlo al repositorio realice push que estará al lado de _GRAPH_ _auto_ el <br>
    penúltimo símbolo que al pasar el cursor verás **push**, y al su izquierda estará **pull** para recibir cambios
 ## Organización del proyecto (Hay texto de ejemplo en los ficheros)
-- **bibliografia** Aquí guardará las referencias en el fichero [ref.bib](https://github.com/L-51/Plantilla-Latex-VSC/blob/main/bibliografia/ref.bib)
-- **build** Aquí guardará los archivos temporales a la hora de la compilación y el [pdf de salida](https://github.com/L-51/Plantilla-Latex-VSC/blob/main/build/main.pdf)
+- [**bibliografia**](https://github.com/L-51/Plantilla-Latex-VSC/tree/main/bibliografia) Aquí guardará las referencias en el fichero [ref.bib](https://github.com/L-51/Plantilla-Latex-VSC/blob/main/bibliografia/ref.bib)
+- [**build**](https://github.com/L-51/Plantilla-Latex-VSC/tree/main/build) Aquí guardará los archivos temporales a la hora de la compilación y el [pdf de salida](https://github.com/L-51/Plantilla-Latex-VSC/blob/main/build/main.pdf)
 - [**config**](https://github.com/L-51/Plantilla-Latex-VSC/tree/main/config) Aquí están los [paquetes](https://github.com/L-51/Plantilla-Latex-VSC/blob/main/config/packages.tex) que usarás y [comandos](https://github.com/L-51/Plantilla-Latex-VSC/blob/main/config/command.tex)
-- **secciones** Esta carpeta contiene las distintas secciones que forman parte del trabajo
+- [**secciones**](https://github.com/L-51/Plantilla-Latex-VSC/tree/main/secciones) Esta carpeta contiene las distintas secciones que forman parte del trabajo
 - **images** Carpeta de las imágenes que se usará para el proyecto
 - [**portada.tex**](https://github.com/L-51/Plantilla-Latex-VSC/blob/main/portada.tex) Este archivo contiene la portada del trabajo en formato LaTeX
 - [**main.tex**](https://github.com/L-51/Plantilla-Latex-VSC/blob/main/main.tex) El main donde se incluirá todo
