@@ -46,7 +46,7 @@
 - [**build**](https://github.com/L-51/Plantilla-Latex-VSC/tree/main/build) Aquí guardará los archivos temporales a la hora de la compilación y el [pdf de salida](https://github.com/L-51/Plantilla-Latex-VSC/blob/main/build/main.pdf)
 - [**config**](https://github.com/L-51/Plantilla-Latex-VSC/tree/main/config) Aquí están los [paquetes](https://github.com/L-51/Plantilla-Latex-VSC/blob/main/config/packages.tex) que usarás y [comandos](https://github.com/L-51/Plantilla-Latex-VSC/blob/main/config/command.tex)
 - [**secciones**](https://github.com/L-51/Plantilla-Latex-VSC/tree/main/secciones) Esta carpeta contiene las distintas secciones que forman parte del trabajo
-- **images** Carpeta de las imágenes que se usará para el proyecto
+- [**images**](https://github.com/L-51/Plantilla-Latex-VSC/tree/main/images) Carpeta de las imágenes que se usará para el proyecto
 - [**portada.tex**](https://github.com/L-51/Plantilla-Latex-VSC/blob/main/portada.tex) Este archivo contiene la portada del trabajo en formato LaTeX
 - [**main.tex**](https://github.com/L-51/Plantilla-Latex-VSC/blob/main/main.tex) El main donde se incluirá todo
 - [**.gitignore**](https://github.com/L-51/Plantilla-Latex-VSC/blob/main/.gitignore) Es útil cuando piensas crear <br>
