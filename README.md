@@ -1,5 +1,8 @@
 # Plantilla LaTeX para Visual Studio Code (VSC) | Tutorial para configurar LaTex en Visual Studio Code (VSC) (Sistema Linux)
 ## Guía para LaTex en Visual Code Studio
+Plantilla de LaTeX lista para usar en **Visual Studio Code (VSC)** en Linux.  <br>
+Incluye configuración básica, instalación de extensiones, compilación automática y organización de proyecto en carpetas. <br>
+Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX desde VS Code de forma rápida y ordenada. <br>
 ### Configuración básica
 - **Instalar Visual Studio Code** <br>
   Accede a [Instalar VSC para Linux](https://code.visualstudio.com/docs/setup/linux) y seguir los pasos
