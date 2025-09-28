@@ -31,6 +31,10 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
 </p>
 
 - `Ctrl + I` para abrir **Copilot**(en caso de haberselo instalado)
+<p>
+  <img src="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/Ctrl%2BI.png" alt="Inline chat" width="200"/>
+</p>
+
 - **(Muy recomendable)** Para una mejor visualización del entorno `Ctrl + ,` para abrir configuración y aquí <br>
    hay un par de cosas interesantes que destacar: Para que a la anchura de 80 caracteres le aparezca una línea <br>
    de delimitación y que si llegas a ese tope se ajuste automáticamente busca en configuración **rulers** y <br>
@@ -38,9 +42,19 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
      `"editor.rulers": [80],` <br>
      `"editor.wordWrap": "wordWrapColumn",` <br>
      `"editor.wordWrapColumn": 80,` <br>
+<p>
+  <img src="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/Ctrl%2B%2C.png" alt="Configuración" width="200"/>
+  <img src="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/Edit_setting_rulers.png" alt="Rulers" width="200"/>
+  <img src="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/Settings_json.png" alt="settings.json" width="200"/>
+</p>
+
 - **(Muy recomendable)** Configure la salida de los archivos de compilación a la carpeta, pulse `Ctrl + ,` para abrir configuración <br>
     y busque `Latex: Out Dir` y cambié la salida por `./build`. Una vez compilado el proyecto la salida en format pdf se verá en la carpeta [build](https://github.com/L-51/Plantilla-Latex-VSC/tree/main/build) <br>
     llamado [main.pdf](https://github.com/L-51/Plantilla-Latex-VSC/blob/main/build/main.pdf)
+<p>
+  <img src="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/Out_dir.png" alt="Out dir" width="200"/>
+</p>
+
 ## Conectar con el repositorio Git
 1. Instalación de **Git** si no lo tenían previamente instalado, `sudo apt install git -y`
 2. Configurar tu usuario y correo: <br>
