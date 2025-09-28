@@ -15,6 +15,7 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
     En caso de querer usarlo, instalar **Github Copilot** y **Github Copilot Chat** en el apartado de extensiones <br>
     Para conectar con su cuenta de estudiante, sería clickear en tu perfil, y en el apartado de `setting`, ir a la parte de `Emails` y añadir tu cuenta de estudiante
 - `Ctrl + S` para guardar/compilar
+  ![Guardar/Compilar](https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/Ctrl%2BS.png)
 - `Ctrl + Alt + V` para visualizar
 - Algo que está realmente interesante es que si tienes el `main.pdf` abierto, y le das a compilar, puedes ver <br>
   los cambios ejercidos en el pdf
@@ -28,8 +29,7 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
      `"editor.wordWrap": "wordWrapColumn",` <br>
      `"editor.wordWrapColumn": 80,` <br>
 - **(Muy recomendable)** Configure la salida de los archivos de compilación a la carpeta, pulse `Ctrl + ,` para abrir configuración <br>
-    y busque `Latex: Out Dir` y cambié la salida por `./build`. Una vez compilado el proyecto sea dándole al botón de `build` o pulsando <br>
-    `Ctrl + Alt + B` la salida en format pdf se verá en la carpeta [build](https://github.com/L-51/Plantilla-Latex-VSC/tree/main/build) <br>
+    y busque `Latex: Out Dir` y cambié la salida por `./build`. Una vez compilado el proyecto la salida en format pdf se verá en la carpeta [build](https://github.com/L-51/Plantilla-Latex-VSC/tree/main/build) <br>
     llamado [main.pdf](https://github.com/L-51/Plantilla-Latex-VSC/blob/main/build/main.pdf)
 ## Conectar con el repositorio Git
 1. Instalación de **Git** si no lo tenían previamente instalado, `sudo apt install git -y`
