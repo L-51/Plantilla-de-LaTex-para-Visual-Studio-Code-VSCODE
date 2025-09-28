@@ -16,12 +16,12 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
     Para conectar con su cuenta de estudiante, sería clickear en tu perfil, y en el apartado de `setting`, ir a la parte de `Emails` y añadir tu cuenta de estudiante
 - `Ctrl + S` para guardar/compilar
 <p align="left">
-  <img src="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/Ctrl%2BS.png" alt="Guardar/Compilar" width="200"/>
+  <img src="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/Ctrl%2BS.png" alt="Guardar/Compilar" width="250"/>
 </p>
 
 - `Ctrl + Alt + V` para visualizar
 <p align="left">
-  <img src="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/Ctrl%2BAlt%2BV.png" alt="Visualizar" width="250"/>
+  <img src="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/Ctrl%2BAlt%2BV.png" alt="Visualizar" width="320"/>
 </p>
 
 - Algo que está realmente interesante es que si tienes el `main.pdf` abierto, y le das a compilar, puedes ver los cambios ejercidos en el pdf
@@ -32,7 +32,7 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
 
 - `Ctrl + I` para abrir **Copilot**(en caso de haberselo instalado)
 <p>
-  <img src="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/Ctrl%2BI.png" alt="Inline chat" width="250"/>
+  <img src="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/Ctrl%2BI.png" alt="Inline chat" width="290"/>
 </p>
 
 - **(Muy recomendable)** Para una mejor visualización del entorno `Ctrl + ,` para abrir configuración y aquí <br>
@@ -43,16 +43,20 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
      `"editor.wordWrap": "wordWrapColumn",` <br>
      `"editor.wordWrapColumn": 80,` <br>
 <p>
-  <img src="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/Ctrl%2B%2C.png" alt="Configuración" width="230"/> <br>
-  <img src="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/Edit_setting_rulers.png" alt="Rulers" width="400"/> <br>
-  <img src="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/Settings_json.png" alt="settings.json" width="400"/>
+  <img src="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/Ctrl%2B%2C.png" alt="Configuración" width="250"/>
+</p>
+<p>
+  <img src="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/Edit_setting_rulers.png" alt="Rulers" width="700"/> 
+</p>
+<p>
+  <img src="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/Settings_json.png" alt="settings.json" width="700"/>
 </p>
 
 - **(Muy recomendable)** Configure la salida de los archivos de compilación a la carpeta, pulse `Ctrl + ,` para abrir configuración <br>
     y busque `Latex: Out Dir` y cambié la salida por `./build`. Una vez compilado el proyecto la salida en format pdf se verá en la carpeta [build](https://github.com/L-51/Plantilla-Latex-VSC/tree/main/build) <br>
     llamado [main.pdf](https://github.com/L-51/Plantilla-Latex-VSC/blob/main/build/main.pdf)
 <p>
-  <img src="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/Out_dir.png" alt="Out dir" width="200"/>
+  <img src="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/Out_dir.png" alt="Out dir" width="800"/>
 </p>
 
 ## Conectar con el repositorio Git
