@@ -15,7 +15,9 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
     En caso de querer usarlo, instalar **Github Copilot** y **Github Copilot Chat** en el apartado de extensiones <br>
     Para conectar con su cuenta de estudiante, sería clickear en tu perfil, y en el apartado de `setting`, ir a la parte de `Emails` y añadir tu cuenta de estudiante
 - `Ctrl + S` para guardar/compilar
-  ![Guardar/Compilar](https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/Ctrl%2BS.png)
+<p align="left">
+  <img src="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/Ctrl%2BS.png" alt="Guardar/Compilar" width="150"/>
+</p>
 - `Ctrl + Alt + V` para visualizar
 - Algo que está realmente interesante es que si tienes el `main.pdf` abierto, y le das a compilar, puedes ver <br>
   los cambios ejercidos en el pdf
