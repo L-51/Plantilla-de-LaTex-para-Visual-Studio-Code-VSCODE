@@ -16,16 +16,20 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
     Para conectar con su cuenta de estudiante, sería clickear en tu perfil, y en el apartado de `setting`, ir a la parte de `Emails` y añadir tu cuenta de estudiante
 - `Ctrl + S` para guardar/compilar
 <p align="left">
-  <img src="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/Ctrl%2BS.png" alt="Guardar/Compilar" width="150"/>
+  <img src="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/Ctrl%2BS.png" alt="Guardar/Compilar" width="200"/>
 </p>
 
 - `Ctrl + Alt + V` para visualizar
 <p align="left">
-  <img src="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/Ctrl%2BAlt%2BV.png" alt="Visualizar" width="150"/>
+  <img src="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/Ctrl%2BAlt%2BV.png" alt="Visualizar" width="200"/>
 </p>
 
 - Algo que está realmente interesante es que si tienes el `main.pdf` abierto, y le das a compilar, puedes ver los cambios ejercidos en el pdf
 - `Ctrl + Alt + X` le abrirá una ventana asociado al compilador de Latex y abajo izquierda con snippet
+<p>
+  <img src="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/Snippet.png" alt="Snippet" width="200"/>
+</p>
+
 - `Ctrl + I` para abrir **Copilot**(en caso de haberselo instalado)
 - **(Muy recomendable)** Para una mejor visualización del entorno `Ctrl + ,` para abrir configuración y aquí <br>
    hay un par de cosas interesantes que destacar: Para que a la anchura de 80 caracteres le aparezca una línea <br>
