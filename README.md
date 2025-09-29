@@ -91,10 +91,10 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
     <p><em>settings.json tras introducir las reglas</em></p>
   </p>
 
-- **(Opcional 1)** Para configurar la localización de los archivos de salida de compilación, pulse `Ctrl + ,` para abrir configuración y busque `Latex: Out Dir`, cambie la salida por una carpeta o una ruta donde quieras preservar los archivos. Una vez compilado el proyecto la salida se verá reflejado en dicha ruta. Para esta parte es recomendable que se use un fichero `.gitignore` para que no se guarde archivos que no le interese en el repositorio. En comparación a **Opcional 2** como se indica abajo, hay una carpeta de más, pero a la hora de compilación es más rápido ya que mantiene los archivos de compilación, aunque ocupe más espacio
+- **(Opcional 1)** Para configurar la localización de los archivos de salida de compilación, pulse `Ctrl + ,` para abrir configuración y busque `Latex: Out Dir`, cambie la salida por una carpeta o una ruta donde quieras preservar los archivos. Una vez compilado el proyecto la salida se verá reflejado en dicha ruta(se usó [./build](https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/tree/main/template/build) de ejemplo). Para esta parte es recomendable que se use un fichero [`.gitignore`](https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/template/.gitignore) para que no se guarde archivos que no le interese en el repositorio. En comparación a **Opcional 2** como se indica abajo, hay una carpeta de más, pero a la hora de compilación es más rápido ya que mantiene los archivos de compilación, aunque ocupe más espacio
   <p>
     <img src=".readme/Out_dir.png" alt="Out dir" width="1000"/>
-    <p><em>Ejemplo de establecer la salida en "./build"</em></p>
+    <p><em>Ejemplo de establecer la salida en <a href="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/tree/main/template/build">./build</a></em></p>
   </p>
   
 - **(Opcional 2)** Si accedes a ajuste sea por icono o sea por `Ctrl + ,`, y busca `LaTex Auto Build Run` le aparecerá un apartado donde se podrá elegir la opción de compilación:
@@ -192,13 +192,12 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
 
 ## Organización del proyecto (Hay texto de ejemplo en los ficheros)
 - [**bibliografia**](https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/tree/main/template/bibliografia) Aquí guardará las referencias en el fichero [ref.bib](https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/template/bibliografia/ref.bib)
-- [**config**](https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/tree/main/template/config) Aquí están los [paquetes](https://github.com/L-51/Plantilla-Latex-VSC/blob/main/config/packages.tex) que usarás y [comandos](https://github.com/L-51/Plantilla-Latex-VSC/blob/main/config/command.tex)
-- [**secciones**](https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/tree/main/template/secciones) Esta carpeta contiene las distintas secciones que forman parte del trabajo
-- [**images**](https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/tree/main/template/images) Carpeta de las imágenes que se usará para el proyecto
+- [**config**](https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/tree/main/template/config) Aquí están los [paquetes](https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/tree/main/template/config/packages.tex) que usarás y [comandos](https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/tree/main/template/config/command.tex) que se aplica de forma general al proyecto
+- [**secciones**](https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/tree/main/template/secciones) Esta carpeta contendrá las distintas secciones que forman parte del trabajo
+- [**images**](https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/tree/main/template/images) Carpeta de las imágenes que se usarán para el proyecto
 - [**portada.tex**](https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/template/portada.tex) Este archivo contiene la portada del trabajo en formato LaTeX
-- [**main.tex**](https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/template/main.tex) El main donde se incluirá todo
-- [**.gitignore**](https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/template/.gitignore) Es útil cuando piensas crear <br>
-  también un repositorio y hayas seguido la configuración previa para guardar los archivos de compilación en **build**
+- [**main.tex**](https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/template/main.tex) El main donde se incluirá todo, se indica al principio de esta `% !TeX root = main.tex
+`
 <!--========================================================================================================-->
 
 ---  
