@@ -18,19 +18,20 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
 ## Configuración básica
 - **Instalar Visual Studio Code** <br>
   Accede a [Instalar VSC para Linux](https://code.visualstudio.com/docs/setup/linux) y seguir los pasos
+  
 - **Instalar extensiones en VSC** <br>
-  `Ctrl + Shift + X` Accedes a extensiones y seleccionas **LaTex Workshop** de James Yu <br>
+  `Ctrl + Shift + X` Accedes a extensiones y seleccionas **LaTex Workshop** de James Yu:
   <p>
     <img src="./images/readme/Extension.png" alt="Extension" width="200"/>
     <p><em>Incono de extensión</em></p>
   </p>
   <p>
     <img src="./images/readme/LaTex_Workshop.png" alt="LaTex Workshop" width="600"/>
-    <p><em>Imagen de la extensión LaTex Workshop</em></p>
+    <p><em>Resultado de la búsqueda LaTex Workshop</em></p>
   </p>
 
 - **Instalar paquetes en Linux** <br>
-  Al no usar esta vez un compilador online tenemos que instalar los paquetes necesarios por nuestra cuenta `sudo apt install texlive-full -y` para los paquetes de LaTex, se puede usar el atajo `Ctrl + '` para abrir el terminal o desde la barra superior
+  Al no usar un compilador online tenemos que instalar los paquetes necesarios de manera local por nuestra cuenta realizando `sudo apt install texlive-full -y` para los paquetes de LaTex, se puede usar el atajo `Ctrl + '` para abrir el terminal o desde el icono interactivo:
   <p>
     <img src="./images/readme/Terminal.png" alt="Terminal" width="500"/>
     <p><em>Visualizar terminal de manera interactiva</em></p>
@@ -38,44 +39,50 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
   
 <!--========================================================================================================-->
 ## Tips(Consejos)
-- Al tener cuenta de estudiante, el **Copilot de Github** se puede usar gratuitamente<br>
-    En caso de querer usarlo, instalar **Github Copilot** y **Github Copilot Chat** en el apartado de extensiones <br>
-    Para conectar con su cuenta de estudiante, sería clickear en tu perfil, y en el apartado de `setting`, ir a la parte de `Emails` y añadir tu cuenta de estudiante
-- `Ctrl + S` para guardar/compilar
+- Al tener cuenta de estudiante, el **Copilot de Github** se puede usar gratuitamente.
+  
+  En caso de querer usarlo, instalar **Github Copilot** y **Github Copilot Chat** en el apartado de extensiones como previamente se indicó.
+  
+  Para conectar con su cuenta de estudiante, sería ir al apartado de su perfil -> `setting` -> `Emails` y añadir tu cuenta de estudiante
+  
+- `Ctrl + S` para guardar/compilar:
   <p align="left">
     <img src="./images/readme/Ctrl%2BS.png" alt="Guardar/Compilar" width="250"/>
     <p><em>Guardar de manera interactiva</em></p>
   </p>
 
-- `Ctrl + Alt + V` para visualizar
+- `Ctrl + Alt + V` para visualizar:
   <p align="left">
     <img src="./images/readme/Ctrl%2BAlt%2BV.png" alt="Visualizar" width="400"/>
     <p><em>Icono para visualizar</em></p>
   </p>
 
-- Algo que está realmente interesante es que si tienes el `main.pdf` abierto, y le das a compilar, puedes ver los cambios ejercidos en el pdf
+- Si tienes el `main.pdf` abierto para visualizar como previa mención, al guardar, se puedes ver los cambios reflejados en el pdf
+  
 - `Ctrl + Alt + X` le abrirá una ventana asociado al compilador de Latex y abajo izquierda con snippet
   <p>
     <img src="./images/readme/Snippet.png" alt="Snippet" width="200"/>
-    <p><em>Icono de los snippet de LaTeX</em></p>
+    <p><em>Localización de las facilidades de LaTeX</em></p>
   </p>
 
-- `Ctrl + I` para abrir **Copilot**(en caso de haberselo instalado)
+- `Ctrl + I` para abrir **Copilot**(en caso de disposición de su extensión)
   <p>
     <img src="./images/readme/Ctrl%2BI.png" alt="Inline chat" width="350"/>
     <p><em>Iniciar una interacción con el chatbot</em></p>
   </p>
 
-- **(Muy recomendable)** Para una mejor visualización del entorno `Ctrl + ,` para abrir configuración y aquí <br>
-   hay un par de cosas interesantes que destacar: Para que a la anchura de 80 caracteres le aparezca una línea <br>
-   de delimitación y que si llegas a ese tope se ajuste automáticamente busca en configuración **rulers** y <br>
-   abrir **Edit in setting.json**, luego añadir tras `"workbench.colorTheme": "Default Light Modern",` lo siguiente: <br>
-     `"editor.rulers": [80],` <br>
-     `"editor.wordWrap": "wordWrapColumn",` <br>
-     `"editor.wordWrapColumn": 80,` <br>
+- **(Comodidad visual)** Para una mejor visualización del entorno, abrimos configuración o en su defecto `Ctrl + ,`, escribir en la barra de búsqueda **rulers**, para posteriormente abrir **Edit in setting.json**, tras `"workbench.colorTheme": "Default Light Modern",` añadimos lo siguiente para que aparezca a la anchura de 80 caracteres un delimitador cual ajusta la anchura de texto de forma automática:
+  <pre>
+    ```
+    "editor.rulers": [80],
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 80,
+    ```
+  </pre>
+     
   <p>
     <img src="./images/readme/Ctrl%2B%2C.png" alt="Configuración" width="250"/>
-    <p><em>Localización de configuración <!--========================================================================================================-->de manera interactiva</em></p>
+    <p><em>Localización de configuración de manera interactiva</em></p>
   </p>
   <p>
     <img src="./images/readme/Edit_setting_rulers.png" alt="Rulers" width="900"/> 
@@ -86,24 +93,45 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
     <p><em>settings.json tras introducir las reglas</em></p>
   </p>
 
-- **(Muy recomendable)** Configure la salida de los archivos de compilación a la carpeta, pulse `Ctrl + ,` para abrir configuración <br>
-    y busque `Latex: Out Dir` y cambié la salida por `./build`. Una vez compilado el proyecto la salida en format pdf se verá en la carpeta [build](https://github.com/L-51/Plantilla-Latex-VSC/tree/main/build) llamado [main.pdf](https://github.com/L-51/Plantilla-Latex-VSC/blob/main/build/main.pdf)
+- **(Opcional)** Para configurar la localización de los archivos de salida de compilación, pulse `Ctrl + ,` para abrir configuración y busque `Latex: Out Dir`, cambie la salida por una carpeta o una ruta donde quieras preservar los archivos. Una vez compilado el proyecto la salida se verá reflejado en dicha ruta.
   <p>
     <img src="./images/readme/Out_dir.png" alt="Out dir" width="1000"/>
-    <p><em>Resultado y aplicación de establecer la salida</em></p>
+    <p><em>Ejemplo de establecer la salida en "./build"</em></p>
   </p>
+  
+- **(Recomendable)** Si accedes a ajuste sea por icono o sea por `Ctrl + ,`, y busca `LaTex Auto Build Run` le aparecerá un apartado donde se podrá elegir la opción de compilación:
+  - `never` compila solo cuando lanza el comando **Build LaTeX project** manualmente (`Ctrl+Alt+B` por defecto)
+  - `onSave` compila solo cuando **guardas el archivo** (`Ctrl+S`), más recomendable para tener un mejor control de la compilación
+  - `onFileChange` compila automáticamente cada vez que **detecta un cambio en el archivo** (aunque no lo guardes)
+Y al buscar `LaTex Auto Clean Run`, también dispone de opciones:
+  - `onBuilt` limpia después de **cada compilación**
+  - `onFailed` limpia solo si la **compilación falla**
+  - `onSucceeded` limpia solo si **compilación fue exitosa**
+  - `never` limpia solo cuando lanza el comando **LaTeX Workshop: Clean up auxiliary files** (lo puedes buscar con `Ctrl+Shift+P`)
+<p>
+  <img src="./images/readme/autoBuild.png" alt="AutoBuild Run" width="550"/>
+  <p><em>Resultado de la búsqueda</em></p>
+</p>
+<p>
+  <img src="./images/readme/autoClean.png" alt="AutoBuild Run" width="550"/>
+  <p><em>Resultado de la búsqueda</em></p>
+</p>
+<p>
+  <img src="./images/readme/setting_json_alt.png" alt="AutoBuild Run" width="550"/>
+  <p><em>settings.json tras elegir el modo</em></p>
+</p>
 <!--========================================================================================================-->
 
 ## Conectar con el repositorio Git
-1. Instalación de **Git** si no lo tenían previamente instalado, `sudo apt install git -y`
-2. Configurar tu usuario y correo: <br>
+1. Instalación de **Git**: si no lo tenían previamente instalado, `sudo apt install git -y`
+2. Configurar tu usuario y correo:<br>
    `git config --global user.name "Tu Nombre"` <br>
    `git config --global user.email "tuemail@dominio.com"`
-3. Accede a la carpeta donde quieras tener este proyecto guardado y clónalo escribiendo en la terminal <br>
-   de VSC y poner `git clone https://github.com/L-51/Plantilla-Latex-VSC`
-4. Abre la carpeta usando **Open Folder** de VSC o la carpeta que te interesa hacer _click derecho_ y abrir con <br>
-   y escribir **code**
-5. Para guardar cambios escriba un mensaje de su última modificación y realice un **commit** y si quieres subirlo al repositorio realice **push** que estará en la opción de **Source Control** o con atajo `Ctrl + Shift + G` al lado estará el botón para recibir cambios del repositorio **pull**, en su defecto, a la hora de hacer **commit**, se puede desplegar a la derecha y elegir **Commit & Push** o **Commit & Pull**
+4. Accede a la carpeta donde quieras tener este proyecto guardado y clónalo escribiendo en la terminal de VSC y poner: <br>
+   `git clone https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE` <br>
+   O en su defecto descargarse el fichero zip [descargar](https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/releases/tag/v1.0.0)
+6. Abre la carpeta usando **Open Folder** de VSC o la carpeta que te interesa para realizar _click derecho_ -> _abrir con_ -> escribir **code** -> _Enter_
+7. Para guardar los cambios en **Git** o para sincronizar con el repositorio vayase al apartado de **Source Control** o mediante atajo `Ctrl + Shift + G`, donde podrá realizar un **commit**, para recibir cambios del repositorio **pull**, o modificar el respositorio mediante **push**, en su defecto, a la hora de hacer **commit**, se puede desplegar a la derecha y emplear **Commit & Push** o **Commit & Pull**.
 <p>
   <img src="./images/readme/Source_Control.png" alt="Source Control" width="300"/>
 </p>
@@ -132,4 +160,4 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
 
 ---  
 ## ⚠️Recomendación final:
-Se recomienda que cada usuario solo edite la parte que le corresponda salvo correcciones para evitar **sobreescritura** del trabajo de otros
+Si tienes poco manejo a la hora de usar GitHub para trabajar con varios usuarios y una mayor comodidad, se recomienda separar de forma explícita los ficheros donde trabajarán cada uno de ellos, y evitar en la medida de lo posible modificar ficheros no correspondido de forma accidental
