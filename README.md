@@ -13,7 +13,7 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
   Accede a [Instalar VSC para Linux](https://code.visualstudio.com/docs/setup/linux) y seguir los pasos
 - **Instalar extensiones en VSC** <br>
   `Ctrl + Shift + X` Accedes a extensiones y seleccionas **LaTex Workshop** de James Yu <br>
-  <div align="center">
+  <div align="left">
     <img src="./images/readme/Extension.png" alt="Extension" width="200"/>
   </div>
   <p>
