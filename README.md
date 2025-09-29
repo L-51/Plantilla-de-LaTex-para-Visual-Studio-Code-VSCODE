@@ -8,7 +8,15 @@ Incluye configuración básica, instalación de extensiones, compilación autom�
 Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX desde VS Code de forma rápida y ordenada. <br>
 
 <!----------------------------------------------------------------------------------------------------->
-### Configuración básica
+## Tabla de contenido
+- [Configuración básica](## Configuración básica)
+- [Tips(Consejos)](## Tips(Consejos))
+- [Conectar con el repositorio Git](## Conectar con el repositorio Git)
+- [Organización del proyecto](## Organización del proyecto)
+- [Recomendación final](## ⚠️Recomendación final:)
+
+<!----------------------------------------------------------------------------------------------------->
+## Configuración básica
 - **Instalar Visual Studio Code** <br>
   Accede a [Instalar VSC para Linux](https://code.visualstudio.com/docs/setup/linux) y seguir los pasos
 - **Instalar extensiones en VSC** <br>
@@ -30,7 +38,7 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
   </p>
   
 <!----------------------------------------------------------------------------------------------------->
-### Tips(Consejos)
+## Tips(Consejos)
 - Al tener cuenta de estudiante, el **Copilot de Github** se puede usar gratuitamente<br>
     En caso de querer usarlo, instalar **Github Copilot** y **Github Copilot Chat** en el apartado de extensiones <br>
     Para conectar con su cuenta de estudiante, sería clickear en tu perfil, y en el apartado de `setting`, ir a la parte de `Emails` y añadir tu cuenta de estudiante
@@ -124,5 +132,5 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
 <!----------------------------------------------------------------------------------------------------->
 
 ---  
-## ⚠️Recomendación:
+## ⚠️Recomendación final:
 Se recomienda que cada usuario solo edite la parte que le corresponda salvo correcciones para evitar **sobreescritura** del trabajo de otros
