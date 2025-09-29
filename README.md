@@ -13,6 +13,7 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
 - [Conectar con el repositorio Git](#conectar-con-el-repositorio-git)
 - [Organización del proyecto](#organización-del-proyecto-hay-texto-de-ejemplo-en-los-ficheros)
 - [Recomendación final](#️recomendación-final)
+- [Recursos adicionales](#recursos-adicionales)
 
 <!--========================================================================================================-->
 ## Configuración básica
@@ -203,3 +204,8 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
 ---  
 ## ⚠️Recomendación final:
 Si tienes poco manejo a la hora de usar GitHub para trabajar con varios usuarios y una mayor comodidad, se recomienda separar de forma explícita los ficheros donde trabajarán cada uno de ellos, y evitar en la medida de lo posible modificar ficheros no correspondido de forma accidental
+
+---
+## Recursos adicionales:
+- [Documentación de LaTeX Workshop](https://github.com/James-Yu/LaTeX-Workshop)
+- [Manual sencillo de LaTex](https://manualdelatex.com/tutoriales)
