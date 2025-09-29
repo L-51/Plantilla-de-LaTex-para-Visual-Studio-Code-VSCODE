@@ -77,12 +77,22 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
    `git config --global user.email "tuemail@dominio.com"`
 3. Accede a la carpeta donde quieras tener este proyecto guardado y clónalo escribiendo en la terminal <br>
    de VSC y poner `git clone https://github.com/L-51/Plantilla-Latex-VSC`
-4. Abre la carpeta usando **OpenFolder** de VSC o la carpeta que te interesa hacer _click derecho_ y abrir con <br>
+4. Abre la carpeta usando **Open Folder** de VSC o la carpeta que te interesa hacer _click derecho_ y abrir con <br>
    y escribir **code**
-5. Tras realizar un cambio o recibir una modificación hecha por otro usuario, abrir control de código con <br>
-   `Ctrl + Shift + G`. Para guardar cambios escriba un mensaje de su última modificación y realice un **commit** <br>
-   o `Ctrl + Enter` y si quieres subirlo al repositorio realice push que estará al lado de _GRAPH_ _auto_ el <br>
-   penúltimo símbolo que al pasar el cursor verás **push**, y al su izquierda estará **pull** para recibir cambios
+5. Para guardar cambios escriba un mensaje de su última modificación y realice un **commit** y si quieres subirlo al repositorio realice **push** que estará en la opción de **Source Control** o con atajo `Ctrl + Shift + G` al lado estará el botón para recibir cambios del repositorio **pull**, en su defecto, a la hora de hacer **commit**, se puede desplegar a la derecha y elegir **Commit & Push** o **Commit & Pull**
+<p>
+  <img src="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/Source_Control.png" alt="Source Control" width="450"/>
+</p>
+<p>
+  <img src="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/Simbolo_pull.png" alt="Pull" width="500"/>
+</p>
+<p>
+  <img src="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/Simbolo_push.png" alt="Push" width="500"/>
+</p>
+<p>
+  <img src="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/Commit%26.png" alt="Commit &" width="600"/>
+</p>
+
 ## Organización del proyecto (Hay texto de ejemplo en los ficheros)
 - [**bibliografia**](https://github.com/L-51/Plantilla-Latex-VSC/tree/main/bibliografia) Aquí guardará las referencias en el fichero [ref.bib](https://github.com/L-51/Plantilla-Latex-VSC/blob/main/bibliografia/ref.bib)
 - [**build**](https://github.com/L-51/Plantilla-Latex-VSC/tree/main/build) Aquí guardará los archivos temporales a la hora de la compilación y el [pdf de salida](https://github.com/L-51/Plantilla-Latex-VSC/blob/main/build/main.pdf)
