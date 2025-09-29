@@ -13,12 +13,12 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
   Accede a [Instalar VSC para Linux](https://code.visualstudio.com/docs/setup/linux) y seguir los pasos
 - **Instalar extensiones en VSC** <br>
   `Ctrl + Shift + X` Accedes a extensiones y seleccionas **LaTex Workshop** de James Yu <br>
-  <div align="center">
+  <p>
     <img src="./images/readme/Extension.png" alt="Extension" width="200"/>
-  </div>
-  <div align="center">
+  </p>
+  <p>
     <img src="./images/readme/LaTex_Workshop.png" alt="LaTex Workshop" width="600"/>
-  </div>
+  </p>
 
 - **Instalar paquetes en Linux** <br>
   Al no usar esta vez un compilador online tenemos que instalar los paquetes necesarios por nuestra cuenta `sudo apt install texlive-full -y` para los paquetes de LaTex, se puede usar el atajo `Ctrl + '` para abrir el terminal o desde la barra superior
