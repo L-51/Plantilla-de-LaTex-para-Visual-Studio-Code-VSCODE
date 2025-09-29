@@ -108,11 +108,11 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
   - `onSucceeded` limpia solo si **compilación fue exitosa**
   - `never` limpia solo cuando lanza el comando **LaTeX Workshop: Clean up auxiliary files** (lo puedes buscar con `Ctrl+Shift+P`)
 <p>
-  <img src="./images/readme/autoBuild.png" alt="AutoBuild Run" width="650"/>
+  <img src="./images/readme/autoBuild.png" alt="AutoBuild Run" width="750"/>
   <p><em>Resultado de la búsqueda</em></p>
 </p>
 <p>
-  <img src="./images/readme/autoClean.png" alt="AutoBuild Run" width="650"/>
+  <img src="./images/readme/autoClean.png" alt="AutoBuild Run" width="750"/>
   <p><em>Resultado de la búsqueda</em></p>
 </p>
 <p>
