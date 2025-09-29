@@ -15,15 +15,18 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
   `Ctrl + Shift + X` Accedes a extensiones y seleccionas **LaTex Workshop** de James Yu <br>
   <p>
     <img src="./images/readme/Extension.png" alt="Extension" width="200"/>
+    <figcaption>Incono de extensión</figcaption>
   </p>
   <p>
     <img src="./images/readme/LaTex_Workshop.png" alt="LaTex Workshop" width="600"/>
+    <figcaption>Imagen de la extensión LaTex Workshop</figcaption>
   </p>
 
 - **Instalar paquetes en Linux** <br>
   Al no usar esta vez un compilador online tenemos que instalar los paquetes necesarios por nuestra cuenta `sudo apt install texlive-full -y` para los paquetes de LaTex, se puede usar el atajo `Ctrl + '` para abrir el terminal o desde la barra superior
   <p>
     <img src="./images/readme/Terminal.png" alt="Terminal" width="500"/>
+    <figcaption>Visualizar terminal de manera interactiva</figcaption>
   </p>
   
 <!----------------------------------------------------------------------------------------------------->
@@ -34,22 +37,26 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
 - `Ctrl + S` para guardar/compilar
   <p align="left">
     <img src="./images/readme/Ctrl%2BS.png" alt="Guardar/Compilar" width="250"/>
+    <figcaption>Guardar de manera interactiva</figcaption>
   </p>
 
 - `Ctrl + Alt + V` para visualizar
   <p align="left">
-    <img src="./images/readme/Ctrl%2BAlt%2BV.png" alt="Visualizar" width="550"/>
+    <img src="./images/readme/Ctrl%2BAlt%2BV.png" alt="Visualizar" width="400"/>
+    <figcaption>Icono para visualizar</figcaption>
   </p>
 
 - Algo que está realmente interesante es que si tienes el `main.pdf` abierto, y le das a compilar, puedes ver los cambios ejercidos en el pdf
 - `Ctrl + Alt + X` le abrirá una ventana asociado al compilador de Latex y abajo izquierda con snippet
   <p>
     <img src="./images/readme/Snippet.png" alt="Snippet" width="200"/>
+    <figcaption>Icono de los snippet de LaTeX</figcaption>
   </p>
 
 - `Ctrl + I` para abrir **Copilot**(en caso de haberselo instalado)
   <p>
     <img src="./images/readme/Ctrl%2BI.png" alt="Inline chat" width="350"/>
+    <figcaption>Iniciar una interacción con el chatbot</figcaption>
   </p>
 
 - **(Muy recomendable)** Para una mejor visualización del entorno `Ctrl + ,` para abrir configuración y aquí <br>
@@ -61,18 +68,22 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
      `"editor.wordWrapColumn": 80,` <br>
   <p>
     <img src="./images/readme/Ctrl%2B%2C.png" alt="Configuración" width="250"/>
+    <figcaption>Localización de configuración de manera interactiva</figcaption>
   </p>
   <p>
     <img src="./images/readme/Edit_setting_rulers.png" alt="Rulers" width="900"/> 
+    <figcaption>Resultado de búsqueda de "rulers"</figcaption>
   </p>
   <p>
     <img src="./images/readme/Settings_json.png" alt="settings.json" width="900"/>
+    <figcaption>settings.json tras introducir las reglas</figcaption>
   </p>
 
 - **(Muy recomendable)** Configure la salida de los archivos de compilación a la carpeta, pulse `Ctrl + ,` para abrir configuración <br>
     y busque `Latex: Out Dir` y cambié la salida por `./build`. Una vez compilado el proyecto la salida en format pdf se verá en la carpeta [build](https://github.com/L-51/Plantilla-Latex-VSC/tree/main/build) llamado [main.pdf](https://github.com/L-51/Plantilla-Latex-VSC/blob/main/build/main.pdf)
   <p>
     <img src="./images/readme/Out_dir.png" alt="Out dir" width="1000"/>
+    <figcaption>Resultado y aplicación de establecer la salida</figcaption>
   </p>
 <!----------------------------------------------------------------------------------------------------->
 
