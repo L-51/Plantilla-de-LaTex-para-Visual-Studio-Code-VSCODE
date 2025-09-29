@@ -1,4 +1,5 @@
-# Plantilla LaTeX para Visual Studio Code (VSC) | Tutorial para configurar LaTex en Visual Studio Code (VSC) (Sistema Linux)
+# Plantilla LaTeX para Visual Studio Code (VSC) (Sistema Linux) <br>
+# Tutorial para configurar LaTex en Visual Studio Code (VSC) (Sistema Linux)
 ## Guía para LaTex en Visual Code Studio
 Plantilla de LaTeX lista para usar en **Visual Studio Code (VSC)** en Linux.  <br>
 Incluye configuración básica, instalación de extensiones, compilación automática y organización de proyecto en carpetas. <br>
@@ -8,6 +9,12 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
   Accede a [Instalar VSC para Linux](https://code.visualstudio.com/docs/setup/linux) y seguir los pasos
 - **Instalar extensiones en VSC** <br>
   `Ctrl + Shift + X` Accedes a extensiones y seleccionas **LaTex Workshop** de James Yu <br>
+<p>
+  <img src="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/Extension.png" alt="Extension" width="250"/>
+</p>
+<p>
+  <img src="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/LaTex_Workshop.png" alt="LaTex Workshop" width="450"/>
+</p>
 - **Instalar paquetes en Linux** <br>
   Al no usar esta vez un compilador online tenemos que instalar los paquetes necesarios por nuestra cuenta `sudo apt install texlive-full -y` para los paquetes de LaTex
 ### Recomendación
@@ -21,7 +28,7 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
 
 - `Ctrl + Alt + V` para visualizar
 <p align="left">
-  <img src="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/Ctrl%2BAlt%2BV.png" alt="Visualizar" width="400"/>
+  <img src="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/Ctrl%2BAlt%2BV.png" alt="Visualizar" width="550"/>
 </p>
 
 - Algo que está realmente interesante es que si tienes el `main.pdf` abierto, y le das a compilar, puedes ver los cambios ejercidos en el pdf
@@ -46,17 +53,17 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
   <img src="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/Ctrl%2B%2C.png" alt="Configuración" width="250"/>
 </p>
 <p>
-  <img src="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/Edit_setting_rulers.png" alt="Rulers" width="800"/> 
+  <img src="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/Edit_setting_rulers.png" alt="Rulers" width="900"/> 
 </p>
 <p>
-  <img src="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/Settings_json.png" alt="settings.json" width="800"/>
+  <img src="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/Settings_json.png" alt="settings.json" width="900"/>
 </p>
 
 - **(Muy recomendable)** Configure la salida de los archivos de compilación a la carpeta, pulse `Ctrl + ,` para abrir configuración <br>
     y busque `Latex: Out Dir` y cambié la salida por `./build`. Una vez compilado el proyecto la salida en format pdf se verá en la carpeta [build](https://github.com/L-51/Plantilla-Latex-VSC/tree/main/build) <br>
     llamado [main.pdf](https://github.com/L-51/Plantilla-Latex-VSC/blob/main/build/main.pdf)
 <p>
-  <img src="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/Out_dir.png" alt="Out dir" width="900"/>
+  <img src="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/Out_dir.png" alt="Out dir" width="1000"/>
 </p>
 
 ## Conectar con el repositorio Git
