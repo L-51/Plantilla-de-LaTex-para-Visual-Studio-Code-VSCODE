@@ -1,5 +1,5 @@
 # Plantilla LaTeX para Visual Studio Code (VSC) (Sistema Linux) <br>
-# Tutorial para configurar LaTex en Visual Studio Code (VSC) (Sistema Linux)
+## Tutorial para una configuración básica de LaTex en Visual Studio Code (VSC) (Sistema Linux)
 <!----------------------------------------------------------------------------------------------------->
 
 ## Guía para LaTex en Visual Code Studio
@@ -9,11 +9,11 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
 
 <!----------------------------------------------------------------------------------------------------->
 ## Tabla de contenido
-- [Configuración básica](## Configuración básica)
-- [Tips(Consejos)](## Tips(Consejos))
-- [Conectar con el repositorio Git](## Conectar con el repositorio Git)
-- [Organización del proyecto](## Organización del proyecto)
-- [Recomendación final](## ⚠️Recomendación final:)
+- [Configuración básica](#configuración-básica)
+- [Tips (Consejos)](#tipsconsejos)
+- [Conectar con el repositorio Git](#conectar-con-el-repositorio-git)
+- [Organización del proyecto](#organización-del-proyecto-hay-texto-de-ejemplo-en-los-ficheros)
+- [⚠️ Recomendación final](#️recomendación-final)
 
 <!----------------------------------------------------------------------------------------------------->
 ## Configuración básica
@@ -21,10 +21,9 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
   Accede a [Instalar VSC para Linux](https://code.visualstudio.com/docs/setup/linux) y seguir los pasos
 - **Instalar extensiones en VSC** <br>
   `Ctrl + Shift + X` Accedes a extensiones y seleccionas **LaTex Workshop** de James Yu <br>
-  <p>
-    <img src="./images/readme/Extension.png" alt="Extension" width="200"/>
-    <p><em>Incono de extensión</em></p>
-  </p>
+  | ![Extensión](./images/readme/Extension.png) |
+  |:--:|
+  | *Icono de extensión* |
   <p>
     <img src="./images/readme/LaTex_Workshop.png" alt="LaTex Workshop" width="600"/>
     <p><em>Imagen de la extensión LaTex Workshop</em></p>
