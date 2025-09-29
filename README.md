@@ -13,8 +13,9 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
   <img src="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/Extension.png" alt="Extension" width="250"/>
 </p>
 <p>
-  <img src="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/LaTex_Workshop.png" alt="LaTex Workshop" width="450"/>
+  <img src="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/LaTex_Workshop.png" alt="LaTex Workshop" width="600"/>
 </p>
+
 - **Instalar paquetes en Linux** <br>
   Al no usar esta vez un compilador online tenemos que instalar los paquetes necesarios por nuestra cuenta `sudo apt install texlive-full -y` para los paquetes de LaTex
 ### Recomendación
