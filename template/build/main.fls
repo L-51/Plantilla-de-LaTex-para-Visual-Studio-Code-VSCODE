@@ -1,9 +1,9 @@
-PWD /home/l/Escritorio/GIIM/Plantilla
+PWD /home/l/Escritorio/GIIM/Plantilla/template
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /home/l/.texlive2023/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /home/l/Escritorio/GIIM/Plantilla/main.tex
+INPUT /home/l/Escritorio/GIIM/Plantilla/template/main.tex
 OUTPUT build/main.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
