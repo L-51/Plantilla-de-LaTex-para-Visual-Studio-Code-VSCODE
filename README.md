@@ -13,9 +13,9 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
   Accede a [Instalar VSC para Linux](https://code.visualstudio.com/docs/setup/linux) y seguir los pasos
 - **Instalar extensiones en VSC** <br>
   `Ctrl + Shift + X` Accedes a extensiones y seleccionas **LaTex Workshop** de James Yu <br>
-  <p>
-    <img src="./images/readme/Extension.png" alt="Extension" style="max-width: 100%; height: auto;"/>
-  </p>
+  <div align="center">
+    <img src="./images/readme/Extension.png" alt="Extension" width="200"/>
+  </div>
   <p>
     <img src="./images/readme/LaTex_Workshop.png" alt="LaTex Workshop" width="600"/>
   </p>
