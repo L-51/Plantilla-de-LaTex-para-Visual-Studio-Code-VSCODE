@@ -1,29 +1,32 @@
-# Plantilla LaTeX para Visual Studio Code (VSC) (Sistema Linux) <br>
-## Tutorial para una configuración básica de LaTex en Visual Studio Code (VSC) (Sistema Linux)
-<!----------------------------------------------------------------------------------------------------->
+# Plantilla LaTeX en Visual Studio Code (Linux)
+## Tutorial: Configuración paso a paso
+<!--========================================================================================================-->
 
 ## Guía para LaTex en Visual Code Studio
-Plantilla de LaTeX lista para usar en **Visual Studio Code (VSC)** en Linux.  <br>
-Incluye configuración básica, instalación de extensiones, compilación automática y organización de proyecto en carpetas. <br>
-Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX desde VS Code de forma rápida y ordenada. <br>
+Plantilla de LaTeX lista para usar en **Visual Studio Code (VSC)** en Linux.
 
-<!----------------------------------------------------------------------------------------------------->
+Incluye configuración básica, instalación de extensiones, compilación automática y organización de proyecto en carpetas.
+
+Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX desde VS Code de forma rápida y ordenada.
+
+<!--========================================================================================================-->
 ## Tabla de contenido
 - [Configuración básica](#configuración-básica)
 - [Tips (Consejos)](#tipsconsejos)
 - [Conectar con el repositorio Git](#conectar-con-el-repositorio-git)
 - [Organización del proyecto](#organización-del-proyecto-hay-texto-de-ejemplo-en-los-ficheros)
-- [⚠️ Recomendación final](#️recomendación-final)
+- [Recomendación final](#️recomendación-final)
 
-<!----------------------------------------------------------------------------------------------------->
+<!--========================================================================================================-->
 ## Configuración básica
 - **Instalar Visual Studio Code** <br>
   Accede a [Instalar VSC para Linux](https://code.visualstudio.com/docs/setup/linux) y seguir los pasos
 - **Instalar extensiones en VSC** <br>
   `Ctrl + Shift + X` Accedes a extensiones y seleccionas **LaTex Workshop** de James Yu <br>
-  | ![Extensión](./images/readme/Extension.png) |
-  |:--:|
-  | *Icono de extensión* |
+  <p>
+    <img src="./images/readme/Extension.png" alt="Extension" width="200"/>
+    <p><em>Incono de extensión</em></p>
+  </p>
   <p>
     <img src="./images/readme/LaTex_Workshop.png" alt="LaTex Workshop" width="600"/>
     <p><em>Imagen de la extensión LaTex Workshop</em></p>
@@ -36,7 +39,7 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
     <p><em>Visualizar terminal de manera interactiva</em></p>
   </p>
   
-<!----------------------------------------------------------------------------------------------------->
+<!--========================================================================================================-->
 ## Tips(Consejos)
 - Al tener cuenta de estudiante, el **Copilot de Github** se puede usar gratuitamente<br>
     En caso de querer usarlo, instalar **Github Copilot** y **Github Copilot Chat** en el apartado de extensiones <br>
@@ -75,7 +78,7 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
      `"editor.wordWrapColumn": 80,` <br>
   <p>
     <img src="./images/readme/Ctrl%2B%2C.png" alt="Configuración" width="250"/>
-    <p><em>Localización de configuración de manera interactiva</em></p>
+    <p><em>Localización de configuración <!--========================================================================================================-->de manera interactiva</em></p>
   </p>
   <p>
     <img src="./images/readme/Edit_setting_rulers.png" alt="Rulers" width="900"/> 
@@ -92,7 +95,7 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
     <img src="./images/readme/Out_dir.png" alt="Out dir" width="1000"/>
     <p><em>Resultado y aplicación de establecer la salida</em></p>
   </p>
-<!----------------------------------------------------------------------------------------------------->
+<!--========================================================================================================-->
 
 ## Conectar con el repositorio Git
 1. Instalación de **Git** si no lo tenían previamente instalado, `sudo apt install git -y`
@@ -116,7 +119,7 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
 <p>
   <img src="./images/readme/Commit%26.png" alt="Commit &" width="400"/>
 </p>
-<!----------------------------------------------------------------------------------------------------->
+<!--========================================================================================================-->
 
 ## Organización del proyecto (Hay texto de ejemplo en los ficheros)
 - [**bibliografia**](https://github.com/L-51/Plantilla-Latex-VSC/tree/main/bibliografia) Aquí guardará las referencias en el fichero [ref.bib](https://github.com/L-51/Plantilla-Latex-VSC/blob/main/bibliografia/ref.bib)
@@ -128,7 +131,7 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
 - [**main.tex**](https://github.com/L-51/Plantilla-Latex-VSC/blob/main/main.tex) El main donde se incluirá todo
 - [**.gitignore**](https://github.com/L-51/Plantilla-Latex-VSC/blob/main/.gitignore) Es útil cuando piensas crear <br>
   también un repositorio y hayas seguido la configuración previa para guardar los archivos de compilación en [**build**](https://github.com/L-51/Plantilla-Latex-VSC/tree/main/build)
-<!----------------------------------------------------------------------------------------------------->
+<!--========================================================================================================-->
 
 ---  
 ## ⚠️Recomendación final:
