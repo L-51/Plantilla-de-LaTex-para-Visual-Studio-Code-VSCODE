@@ -17,7 +17,11 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
 </p>
 
 - **Instalar paquetes en Linux** <br>
-  Al no usar esta vez un compilador online tenemos que instalar los paquetes necesarios por nuestra cuenta `sudo apt install texlive-full -y` para los paquetes de LaTex
+  Al no usar esta vez un compilador online tenemos que instalar los paquetes necesarios por nuestra cuenta `sudo apt install texlive-full -y` para los paquetes de LaTex, se puede usar el atajo `Ctrl + '` para abrir el terminal o desde la barra superior
+<p>
+  <img src="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/Terminal.png" alt="Terminal" width="500"/>
+</p>
+
 ### Recomendación
 - Al tener cuenta de estudiante, el **Copilot de Github** se puede usar gratuitamente<br>
     En caso de querer usarlo, instalar **Github Copilot** y **Github Copilot Chat** en el apartado de extensiones <br>
