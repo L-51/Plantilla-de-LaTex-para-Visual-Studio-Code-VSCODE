@@ -81,16 +81,16 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
    y escribir **code**
 5. Para guardar cambios escriba un mensaje de su última modificación y realice un **commit** y si quieres subirlo al repositorio realice **push** que estará en la opción de **Source Control** o con atajo `Ctrl + Shift + G` al lado estará el botón para recibir cambios del repositorio **pull**, en su defecto, a la hora de hacer **commit**, se puede desplegar a la derecha y elegir **Commit & Push** o **Commit & Pull**
 <p>
-  <img src="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/Source_Control.png" alt="Source Control" width="450"/>
+  <img src="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/Source_Control.png" alt="Source Control" width="300"/>
 </p>
 <p>
-  <img src="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/Simbolo_pull.png" alt="Pull" width="500"/>
+  <img src="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/Simbolo_pull.png" alt="Pull" width="350"/>
 </p>
 <p>
-  <img src="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/Simbolo_push.png" alt="Push" width="500"/>
+  <img src="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/Simbolo_push.png" alt="Push" width="350"/>
 </p>
 <p>
-  <img src="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/Commit%26.png" alt="Commit &" width="600"/>
+  <img src="https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/images/readme/Commit%26.png" alt="Commit &" width="400"/>
 </p>
 
 ## Organización del proyecto (Hay texto de ejemplo en los ficheros)
