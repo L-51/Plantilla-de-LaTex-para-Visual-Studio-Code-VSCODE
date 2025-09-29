@@ -1,3 +1,6 @@
+# Ignorar archivos de compilación
 build/*
+
+# Pero mantenemos el main.pdf
 !build/
 !build/main.pdf
