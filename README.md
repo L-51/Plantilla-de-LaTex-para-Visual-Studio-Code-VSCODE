@@ -72,13 +72,11 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
   </p>
 
 - **(Comodidad visual)** Para una mejor visualización del entorno, abrimos configuración o en su defecto `Ctrl + ,`, escribir en la barra de búsqueda **rulers**, para posteriormente abrir **Edit in setting.json**, tras `"workbench.colorTheme": "Default Light Modern",` añadimos lo siguiente para que aparezca a la anchura de 80 caracteres un delimitador cual ajusta la anchura de texto de forma automática:
-  <pre>
-    ```
+  <pre>```
     "editor.rulers": [80],
     "editor.wordWrap": "wordWrapColumn",
     "editor.wordWrapColumn": 80,
-    ```
-  </pre>
+  ```</pre>
      
   <p>
     <img src="./images/readme/Ctrl%2B%2C.png" alt="Configuración" width="250"/>
@@ -103,6 +101,7 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
   - `never` compila solo cuando lanza el comando **Build LaTeX project** manualmente (`Ctrl+Alt+B` por defecto)
   - `onSave` compila solo cuando **guardas el archivo** (`Ctrl+S`), más recomendable para tener un mejor control de la compilación
   - `onFileChange` compila automáticamente cada vez que **detecta un cambio en el archivo** (aunque no lo guardes)
+    
 Y al buscar `LaTex Auto Clean Run`, también dispone de opciones:
   - `onBuilt` limpia después de **cada compilación**
   - `onFailed` limpia solo si la **compilación falla**
