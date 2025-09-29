@@ -1,4 +1,4 @@
-# Plantilla LaTeX en Visual Studio Code (Linux)
+# Plantilla de organización de LaTeX en Visual Studio Code (Linux)
 ## Tutorial: Configuración paso a paso
 Plantilla de LaTeX lista para usar en **Visual Studio Code (VSC)** en Linux.
 
@@ -209,3 +209,4 @@ Si tienes poco manejo a la hora de usar GitHub para trabajar con varios usuarios
 ## Recursos adicionales:
 - [Documentación de LaTeX Workshop](https://github.com/James-Yu/LaTeX-Workshop)
 - [Manual sencillo de LaTex](https://manualdelatex.com/tutoriales)
+- [Plantillas realizado por LosDelGIIM](https://github.com/LosDelDGIIM/LosDelDGIIM.github.io/tree/main/subjects/_plantillas)
