@@ -17,8 +17,8 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
 - [Conectar con el repositorio Git](#conectar-con-el-repositorio-git)
 - [Organización del proyecto](#organización-del-proyecto-hay-texto-de-ejemplo-en-los-ficheros)
 - [Recomendación final](#️recomendación-final)
-- [Recursos adicionales](#recursos-adicionales)
 - [Colaboración](#colaboración)
+- [Recursos adicionales](#recursos-adicionales)
 
 <!--========================================================================================================-->
 ## Configuración básica
