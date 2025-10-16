@@ -27,13 +27,13 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
   
 - **Instalar extensiones en VSC** <br>
   `Ctrl + Shift + X` Accedes a extensiones y seleccionas **LaTex Workshop** de James Yu:
-   <details>
+  <details>
     <summary>Ver capturas de instalación de la extensión</summary>
   
-    ![Icono de extensión](.readme/Extension.png)
+    <img src=".readme/Extension.png" width="200" alt="Icono de extensión"/>
     <p><em>Icono de extensión</em></p>
   
-    ![LaTex Workshop](.readme/LaTex_Workshop.png)
+    <img src=".readme/LaTex_Workshop.png" width="600" alt="LaTex Workshop"/>
     <p><em>Resultado de la búsqueda LaTex Workshop</em></p>
   
   </details>
