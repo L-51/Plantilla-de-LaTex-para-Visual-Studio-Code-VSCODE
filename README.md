@@ -27,10 +27,14 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
   
 - **Instalar extensiones en VSC** <br>
   `Ctrl + Shift + X` Accedes a extensiones y seleccionas **LaTex Workshop** de James Yu:
-  <p>
-    <img src=".readme/Extension.png" alt="Extension" width="200"/>
-    <p><em>Incono de extensión</em></p>
-  </p>
+  <details>
+    <summary>Captura de la extensión LaTeX Workshop</summary>
+  
+    Aquí puedes ver cómo se busca e instala la extensión en VS Code:
+  
+    ![LaTex Workshop](.readme/LaTex_Workshop.png)
+    <p><em>Resultado de la búsqueda LaTex Workshop</em></p>
+  </details>
   <p>
     <img src=".readme/LaTex_Workshop.png" alt="LaTex Workshop" width="600"/>
     <p><em>Resultado de la búsqueda LaTex Workshop</em></p>
@@ -242,3 +246,6 @@ Puedes consultar el apartado de [**Recursos adicionales**](#recursos-adicionales
 - [Manual sencillo de LaTex](https://manualdelatex.com/tutoriales)
 - [Plantillas realizadas por LosDelGIIM](https://github.com/LosDelDGIIM/LosDelDGIIM.github.io/tree/main/subjects/_plantillas)
 - [Tutorial para realizar un **pull request** en Github](https://github.blog/developer-skills/github/beginners-guide-to-github-creating-a-pull-request/)
+- [Badges para readme](https://github.com/inttter/md-badges)
+---
+> Si te resulta útil esta plantilla, ¡no olvides dejar una ⭐ en el repositorio!
