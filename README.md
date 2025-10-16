@@ -212,7 +212,7 @@ Si tienes poco manejo a la hora de usar GitHub para trabajar con varios usuarios
 
 ---
 <!--========================================================================================================-->
-### Colaboración
+## Colaboración
 ¡Siempre son bienvenidas las contribuciones!
 Si quieres colaborar, por favor sigue estos pasos:
 1. Haz un **fork** del repositorio
