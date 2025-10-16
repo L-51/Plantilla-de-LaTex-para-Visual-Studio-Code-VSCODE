@@ -29,7 +29,7 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
   `Ctrl + Shift + X` Accedes a extensiones y seleccionas **LaTex Workshop** de James Yu:
   <p> 
     <img src=".readme/Extension.png" alt="Extension" width="200"/> 
-    <p><em>Incono de extensión</em</p> 
+    <p><em>Incono de extensión</em></p> 
   </p> 
   <p> 
     <img src=".readme/LaTex_Workshop.png" alt="LaTex Workshop" width="600"/> 
