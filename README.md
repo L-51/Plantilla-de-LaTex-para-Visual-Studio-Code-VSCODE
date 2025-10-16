@@ -1,4 +1,5 @@
 # Plantilla de organización de LaTeX en Visual Studio Code (Linux)
+> Plantilla lista para usar en **VS Code (Linux)** con configuración automática, organización modular y soporte completo de LaTeX Workshop.
 ## Tutorial: Configuración paso a paso
 Plantilla de LaTeX lista para usar en **Visual Studio Code (VSC)** en Linux.
 
@@ -213,7 +214,7 @@ Si tienes poco manejo a la hora de usar GitHub para trabajar con varios usuarios
 Si quieres colaborar, por favor sigue estos pasos:
 1. Haz un **fork** del repositorio
 2. Crea una nueva rama para tus cambios:
-   ``` bash
+   ```bash
      git -checkout -b feature/nueva-funcion
    ```
    O para otros propósitos:
@@ -222,9 +223,19 @@ Si quieres colaborar, por favor sigue estos pasos:
    - `hotfix/` -> para parches urgentes
    - `docs` -> para cambios de documentación
 3. Realiza tus modificaciones y haz commit:
-   
+   ```bash
+     git commit -m "mensaje"
+   ```
+4. Sube tus cambios:
+   ```bash
+     git push origin feature/nueva-funcion
+   ```
+5. Abre un **Pull Request** para revisión
+
+Puedes consultar el apartado de [**Recursos adicionales**](#recursos-adicionales) donde hay un tutorial
 
 ## Recursos adicionales:
 - [Documentación de LaTeX Workshop](https://github.com/James-Yu/LaTeX-Workshop)
 - [Manual sencillo de LaTex](https://manualdelatex.com/tutoriales)
 - [Plantillas realizadas por LosDelGIIM](https://github.com/LosDelDGIIM/LosDelDGIIM.github.io/tree/main/subjects/_plantillas)
+- [Tutorial para realizar un **pull request** en Github](https://github.blog/developer-skills/github/beginners-guide-to-github-creating-a-pull-request/)
