@@ -27,16 +27,14 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
   
 - **Instalar extensiones en VSC** <br>
   `Ctrl + Shift + X` Accedes a extensiones y seleccionas **LaTex Workshop** de James Yu:
-  <details>
-    <summary>Ver capturas de instalación de la extensión</summary>
-  
-    <img src=".readme/Extension.png" width="200" alt="Icono de extensión"/>
-    <p><em>Icono de extensión</em></p>
-  
-    <img src=".readme/LaTex_Workshop.png" width="600" alt="LaTex Workshop"/>
-    <p><em>Resultado de la búsqueda LaTex Workshop</em></p>
-  
-  </details>
+  <p> 
+    <img src=".readme/Extension.png" alt="Extension" width="200"/> 
+    <p><em>Incono de extensión</em</p> 
+  </p> 
+  <p> 
+    <img src=".readme/LaTex_Workshop.png" alt="LaTex Workshop" width="600"/> 
+    <p><em>Resultado de la búsqueda LaTex Workshop</em></p> 
+  </p>
 
 - **Instalar paquetes en Linux** <br>
   Al no usar un compilador online tenemos que instalar los paquetes necesarios de manera local por nuestra cuenta realizando `sudo apt install texlive-full -y` para los paquetes de LaTex, se puede usar el atajo `Ctrl + '` para abrir el terminal o desde el icono interactivo:
