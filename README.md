@@ -213,9 +213,9 @@ Si tienes poco manejo a la hora de usar GitHub para trabajar con varios usuarios
 Si quieres colaborar, por favor sigue estos pasos:
 1. Haz un **fork** del repositorio
 2. Crea una nueva rama para tus cambios:
-   ´´´ bash
+   ``` bash
      git -checkout -b feature/nueva-funcion
-   ´´´
+   ```
    O para otros propósitos:
    - `feature/` -> para nuevas funciones o mejoras
    - `fix/` -> para correcciones de errores
