@@ -1,5 +1,4 @@
 # Plantilla de organización de LaTeX en Visual Studio Code (Linux)
-![License](https://img.shields.io/badge/license-MIT-blue)
 ![Platform](https://img.shields.io/badge/platform-Linux-lightgrey)
 ![VSCode](https://img.shields.io/badge/Editor-VSCode-blue?logo=visual-studio-code)
 > Plantilla lista para usar en **VS Code (Linux)** con configuración automática, organización modular y soporte completo de LaTeX Workshop.
