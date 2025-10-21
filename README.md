@@ -60,7 +60,8 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
     ├── 📁images
     │   └── 🖼️Example.png
     ├── 📄main.tex
-    ├── 🧾portada.tex
+    ├── 📁portadas
+    │   └── 📄portada_ejemplo.tex
     └── 📁secciones
         ├── 📄ejercicio_1.tex
         ├── 📄ejercicio_2.tex
@@ -225,7 +226,7 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
 - [**config**](https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/tree/main/template/config) Aquí están los [paquetes](https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/tree/main/template/config/packages.tex) que usarás y [comandos](https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/tree/main/template/config/command.tex) que se aplica de forma general al proyecto
 - [**secciones**](https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/tree/main/template/secciones) Esta carpeta contendrá las distintas secciones que forman parte del trabajo
 - [**images**](https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/tree/main/template/images) Carpeta de las imágenes que se usarán para el proyecto
-- [**portada.tex**](https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/template/portada.tex) Este archivo contiene la portada del trabajo en formato LaTeX
+- [**portadas**](https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/template/portadas) Esta carpeta contiene las portadas del trabajo en formato LaTeX
 - [**main.tex**](https://github.com/L-51/Plantilla-de-LaTex-para-Visual-Studio-Code-VSCODE/blob/main/template/main.tex) El main donde se incluirá todo, se indica al principio de esta `% !TeX root = main.tex
 `
 <!--========================================================================================================-->
