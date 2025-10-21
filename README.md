@@ -46,8 +46,8 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
   
 <!--========================================================================================================-->
 ## Estructura de la plantilla
-<pre>
-📁<span style="color:#FF851B;"> Plantilla-de-LaTeX-para-VSCode </span>
+```html
+📁<span style="color:#0074D9;"> Plantilla-de-LaTeX-para-VSCode </span>
 ├── 📄README.md
 └── 📁<span style="color:#0074D9;">template</span>
     ├── 📁<span style="color:#0074D9;">bibliografia</span>
@@ -65,7 +65,7 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
         ├── 📄ejercicio_1.tex
         ├── 📄ejercicio_2.tex
         └── 📄ejercicio_3.tex
-</pre>
+```
 
 <!--========================================================================================================-->
 ## Tips(Consejos)
