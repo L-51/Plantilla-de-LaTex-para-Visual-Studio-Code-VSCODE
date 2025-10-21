@@ -13,6 +13,7 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
 <!--========================================================================================================-->
 ## Tabla de contenido
 - [Configuración básica](#configuración-básica)
+- [Estructura de la plantilla](#estructura-de-la-plantilla)
 - [Tips (Consejos)](#tipsconsejos)
 - [Conectar con el repositorio Git](#conectar-con-el-repositorio-git)
 - [Organización del proyecto](#organización-del-proyecto-hay-texto-de-ejemplo-en-los-ficheros)
@@ -43,6 +44,31 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
     <p><em>Visualizar terminal de manera interactiva</em></p>
   </p>
   
+<!--========================================================================================================-->
+## Estructura de la plantilla
+<pre>
+```bash
+📁<span style="color:#0074D9;"> Plantilla-de-LaTeX-para-VSCode </span>
+├── 📄README.md
+└── 📁<span style="color:#0074D9;">template</span>
+    ├── 📁<span style="color:#0074D9;">bibliografia</span>
+    │   └── 📚ref.bib
+    ├── 📁<span style="color:#0074D9;">config</span>
+    │   ├── ⚙️settings.tex
+    │   └── 📄packages.tex
+    ├── 📁<span style="color:#0074D9;">ficheros</span>
+    ├── 📄.gitignore
+    ├── 📁<span style="color:#0074D9;">images</span>
+    │   └── 🖼️Example.png
+    ├── 📄main.tex
+    ├── 🧾portada.tex
+    └── 📁<span style="color:#0074D9;">secciones</span>
+        ├── 📄ejercicio_1.tex
+        ├── 📄ejercicio_2.tex
+        └── 📄ejercicio_3.tex
+```
+</pre>
+
 <!--========================================================================================================-->
 ## Tips(Consejos)
 - Al tener cuenta de estudiante, el **Copilot de Github** se puede usar gratuitamente.
