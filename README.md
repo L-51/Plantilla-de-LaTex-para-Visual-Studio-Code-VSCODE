@@ -46,7 +46,7 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
   
 <!--========================================================================================================-->
 ## Estructura de la plantilla
-<pre>
+```bash
 📁Plantilla-de-LaTeX-para-VSCode
 ├── 📄README.md
 └── 📁template
@@ -66,7 +66,7 @@ Ideal para estudiantes y profesionales que quieran escribir documentos en LaTeX 
         ├── 📄ejercicio_1.tex
         ├── 📄ejercicio_2.tex
         └── 📄ejercicio_3.tex
-</pre>
+```
 
 <!--========================================================================================================-->
 ## Tips(Consejos)
